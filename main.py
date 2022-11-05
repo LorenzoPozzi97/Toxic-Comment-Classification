@@ -1,5 +1,9 @@
 set_seed(CONFIG.seed)
 
+train_toxicity = train["comment_text"].map(preprocess_function)
+train_labels = train['target']
+test_toxicity = test["comment_text"].map(preprocess_function)
+test_labels = test['toxicity']
 report_every = 1
 
 model = AutoModel.from_pretrained("distilbert-base-uncased")
