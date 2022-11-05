@@ -1,2 +1,4 @@
 # Toxic Comment Classification
-Work In Progress...
+Online toxicity is nowadays a notorious phenomenon that plagues online communities with rude, aggressive, and degrading attitudes spanning from unjustified insults to pure racial hatred. Natural Language Processing (NLP) comes to our aid with the promise of detecting such behaviors in public chats in order to keep the conversation as respectful as possible with respect to everyone's sensibility. In this prohect used DistilBERT to tackle the problem. The dataset I used to train BERT comes from an old coding challenge published on Kaggle by Jigsaw [https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge], a company that focuses on the prevention of nocent online phenomena, including disinformation, toxicity, and censorship.
+
+With only 10% of the dataset, the model achieved an AUC and Accuracy of 92.2% and 93.4% respectively.
